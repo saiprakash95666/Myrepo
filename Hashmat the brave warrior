@@ -1,0 +1,7 @@
+#Program accept the input until the user provide it
+while(1):
+	try:
+		n,m = map(int,input().split(" "))
+	except EOFError:			# To do this we need to handle EOFError exception and ignore it
+		break
+	print(abs(n - m))
