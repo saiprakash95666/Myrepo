@@ -5,3 +5,13 @@ while(1):
 	except EOFError:			# To do this we need to handle EOFError exception and ignore it
 		break
 	print(abs(n - m))
+'''
+Sample Input
+10 12
+10 14
+100 200
+Sample Output 0
+2
+4
+100
+'''
